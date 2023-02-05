@@ -1,0 +1,98 @@
+
+body {
+
+    margin: 0 auto;
+    background-color: #232323;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: default;
+    
+}
+
+h1{
+    
+    font-size: 60px;
+    color: white;
+    margin: 2vw;
+
+}
+
+#colorDisplay {
+	
+    text-shadow: 4px 5px black;
+    font-style: italic;
+
+}
+
+#stripe {
+
+    max-height: fit-content;
+	background: white;
+
+}
+
+#message{
+
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+  
+}
+
+button{
+    
+    padding: 2%;
+    height: 120px;
+    background-color: #232323;
+    color: white;
+    border: none;
+    font-size: 24px;
+	font-weight: 200;
+  
+}
+
+button:hover{
+
+    font-weight: 700;
+
+}
+
+.selected{
+    
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+.containerColores { 
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.square {
+
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: red;
+    margin: 1%;
+    border-radius: 30%;
+    cursor: pointer;
+   
+}
+
+.square:hover {
+
+    opacity: 0.5 ;
+    
+}
+
+.colorGanador{
+
+    
+}
